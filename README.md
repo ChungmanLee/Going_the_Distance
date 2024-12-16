@@ -1,7 +1,7 @@
 # COMP47590 Advanced Machine Learning
 ## Project 2: Going the Distance
 ### How to Run
-Open COMP47590 Project 2 Going The Distance.ipynb file and run or just view COMP47590 Project 2 Going The Distance.html
+Download zip file, unzip and open "COMP47590 Project 2 Going The Distance.ipynb" file and run
 
 ### Overview
 This assignment involves training a PPO-based agent to control a car in the `CarRacing-v2` environment using the Stable-Baselines3 library. The environment provides a 96x96 image as the state, and the agent can choose from five discrete actions: left, right, brake, accelerate, and none. The reward structure is such that the agent receives `-0.1` every frame and `+1000/N` for each visited track tile, where `N` is the total number of tiles. Completing the track in fewer frames thus leads to higher rewards.
